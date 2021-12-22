@@ -1,9 +1,9 @@
 {
   "name": "jitsi-meet-electron",
   "version": "2021.11.5",
-  "description": "Electron application for Freifunk Meet",
+  "description": "Electron application for rC3 Jitsi",
   "main": "./build/main.js",
-  "productName": "FreifunkMeet",
+  "productName": "rC3 Jitsi",
   "private": true,
   "scripts": {
     "start": "webpack --config ./webpack.main.js --mode development && concurrently \"npm:watch\" \"electron ./build/main.js\"",
@@ -18,8 +18,8 @@
     "node": ">=14.0.0"
   },
   "build": {
-    "appId": "meet.ffmuc.net",
-    "productName": "FreifunkMeet",
+    "appId": "jitsi.rc3.world",
+    "productName": "rC3-Jitsi",
     "generateUpdatesFilesForAllChannels": true,
     "afterPack": "./linux-sandbox-fix.js",
     "afterSign": "./notarize.js",
@@ -49,8 +49,8 @@
       "entitlementsInherit": "entitlements.mac.plist",
       "asarUnpack": "**/*.node",
       "extendInfo": {
-        "NSCameraUsageDescription": "Freifunk Meet requires access to your camera in order to make video-calls.",
-        "NSMicrophoneUsageDescription": "Freifunk Meet requires access to your microphone in order to make calls (audio/video).",
+        "NSCameraUsageDescription": "rC3 Jitsi requires access to your camera in order to make video-calls.",
+        "NSMicrophoneUsageDescription": "rC3 Jitsi requires access to your microphone in order to make calls (audio/video).",
         "LSMultipleInstancesProhibited": true
       }
     },
@@ -62,8 +62,8 @@
     "linux": {
       "artifactName": "ffmuc-meet-${arch}.${ext}",
       "category": "VideoConference;AudioVideo;Audio;Video;Network",
-      "description": "FreifunkMeetApp",
-      "executableName": "ffmuc-meet",
+      "description": "rC3 World Jitsi",
+      "executableName": "rc3-meet",
       "target": [
         {
           "arch": "x64",
@@ -115,16 +115,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/FreifunkMUC/jitsi-meet-electron"
+    "url": "git://github.com/td00/jitsi-meet-electron"
   },
   "keywords": [
     "jingle",
     "webrtc",
     "xmpp",
     "electron",
-    "freifunk-meet"
+    "rc3-meet"
   ],
-  "author": "Freifunk Muenchen <hilfe@ffmuc.bayern>",
+  "author": "rC3 Infra Crew <infra@rc3.world>",
   "readmeFilename": "README.md",
   "license": "Apache-2.0",
   "dependencies": {
