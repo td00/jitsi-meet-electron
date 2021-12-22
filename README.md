@@ -19,7 +19,7 @@ Download our latest release and you're off to the races!
 
 | Windows | macOS | GNU/Linux (64-bit only) |
 | -- | -- | -- |
-| [Download](https://github.com/freifunkMUC/jitsi-meet-electron/releases/latest/download/ffmuc-meet.exe) | [Download](https://github.com/freifunkMUC/jitsi-meet-electron/releases/latest/download/ffmuc-meet.dmg) | [Download](https://github.com/freifunkMUC/jitsi-meet-electron/releases/latest/download/ffmuc-meet-x86_64.AppImage) |
+| [Download](https://github.com/td00/jitsi-meet-electron/releases/latest/download/ffmuc-meet.exe) | [Download](https://github.com/td00/jitsi-meet-electron/releases/latest/download/ffmuc-meet.dmg) | [Download](https://github.com/td00/jitsi-meet-electron/releases/latest/download/ffmuc-meet-x86_64.AppImage) |
 ### Third-Party builds
 
 [<img src="https://flathub.org/assets/badges/flathub-badge-en.svg"
@@ -31,7 +31,7 @@ Download our latest release and you're off to the races!
 For *macOS* user, you can install the application using the following command:
 
 ```
-brew install --cask freifunkMUC/freifunkmeet/freifunk-meet
+brew install --cask td00/freifunkmeet/freifunk-meet
 ```
 
 ### Using it with your own Jitsi Meet installation
@@ -194,10 +194,10 @@ Apache 2. See the [LICENSE] file.
 Jitsi is built by a large community of developers, if you want to participate,
 please join [community forum].
 
-[FreifunkMeet]: https://github.com/FreifunkMUC/jitsi-meet
+[FreifunkMeet]: https://github.com/td00/jitsi-meet
 [Electron]: https://electronjs.org/
-[latest release]: https://github.com/FreifunkMUC/jitsi-meet-electron/releases/latest
+[latest release]: https://github.com/td00/jitsi-meet-electron/releases/latest
 [jitsi-meet-electron-utils]: https://github.com/jitsi/jitsi-meet-electron-utils
-[jitsi-meet-electron-utils README]: https://github.com/FreifunkMUC/jitsi-meet-electron-utils/blob/master/README.md
+[jitsi-meet-electron-utils README]: https://github.com/td00/jitsi-meet-electron-utils/blob/master/README.md
 [community forum]: https://community.jitsi.org/
 [LICENSE]: LICENSE
